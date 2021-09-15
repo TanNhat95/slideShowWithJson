@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#divcontainer{
+    width: 100%;
+    position: relative;
+}
+.number{
+    font-size: 25px;
+    position: absolute;
+}
+img{
+    width: 100%;
+    height: 550px;
+    background-size: cover;
+
+}
+#img4,#img2,#img3,#img1{
+    position: relative;
+}
+.prev
+{
+    left: 0px;
+    top: 35%;
+    display: block;
+    font-size: 2em;
+    text-align: center;
+    position: absolute;
+}
+.next
+{
+    right: 0px;
+    top: 35%;
+    display: block;
+    font-size: 2em;
+    text-align: center;
+    position: absolute;
+}
+.text{
+    font-size: 30px;
+    text-align: center;
+    width: 100%;
+    bottom: 15px;
+    position: absolute;
+}
+.dot{
+    height: 20px;
+    width: 20px;
+    background-color: red;
+    display: inline-block;
+    border-radius: 50%;
+    margin-left: 3px;
+}
+.active,.dot:hover {
+    background-color: blue;
+  }
